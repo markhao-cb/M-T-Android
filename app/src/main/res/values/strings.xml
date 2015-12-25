@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">青岛人家</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_overview_tab">OverviewTab</string>
+    <string name="title_activity_menu_tab">MenuTab</string>
+    <string name="title_activity_promotion_tab">PromotionTab</string>
+    <string name="title_activity_about_tab">AboutTab</string>
+    <string name="title_activity_menu_detail">MenuDetail</string>
+    <string name="qdrj">青岛人家</string>
+    <string name="title_activity_dish_detail">DishDetail</string>
+    <string name="title_activity_dish_image">DishImage</string>
+    <string name="title_activity_promo_detail">PromoDetail</string>
+
+</resources>

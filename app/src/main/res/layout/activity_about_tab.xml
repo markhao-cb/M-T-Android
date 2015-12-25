@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.markqhao.qdrj.AboutTab">
+
+    <ImageView
+        android:id="@+id/biaozhiImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biaozhi1"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tvQDRJ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/biaozhiImageView"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="青岛人家"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvQDRJ"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Version 1.0.0"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="Contact us:"
+        android:textSize="23sp"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvContact"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTel"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Tel:"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+
+                android:textSize="20sp"
+                android:paddingTop="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Address:"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:paddingTop="4dp"
+                android:textSize="20sp"
+                android:layout_gravity="end"
+                android:id="@+id/tvAddress"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="WeChat:"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textSize="20sp"
+                android:layout_gravity="end"
+                android:id="@+id/tvWeChat"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="4dp"
+                android:text="Email:"
+                android:layout_gravity="end"
+                android:textSize="20sp"
+                android:id="@+id/textView2"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btTel"
+                android:text="(626)913-7777"
+                android:background="@android:color/white"
+                android:textColor="@android:color/holo_blue_dark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18904 E Gale Ave, Rowland Heights, CA 91748"
+
+                android:paddingTop="4dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="laqdrj"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textSize="20sp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btEmail"
+
+                android:text="laqdrj@gmail.com"
+                android:background="#FFFFFF"
+                android:textColor="@android:color/holo_blue_dark"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:text="Copyright(c)2014 laqdrj. All rights reserved."/>
+
+</RelativeLayout>
